@@ -142,7 +142,7 @@ function onTorrent(torrent) {
 			remaining = 'готово'
 		} else {
 			remaining = moment.duration(torrent.timeRemaining / 1000, 'seconds').humanize()
-			remaining = remaining[0].toUpperCase() + remaining.substring(1) + 'требуется'
+			remaining = remaining[0].toUpperCase() + remaining.substring(1) + ' требуется'
 		}
 		$remaining.html(remaining)
 
@@ -613,7 +613,7 @@ function onTorrent(torrent) {
         past   : '%s назад ',
         s  : 'несколько секунд ',
         m  : 'минута ',
-        mm : '%d минуты ',
+        mm : '%d минут ',
         h  : 'час',
         hh : '%d часов ',
         d  : 'день ',
