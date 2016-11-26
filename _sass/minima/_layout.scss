@@ -248,6 +248,8 @@ input {
     margin-bottom: $spacing-unit / 2;
     text-align: center;
     border-radius: 15vw 0vw 0vw 15vw;
+     margin-left: 27vw;
+    width: 29vw;
 
     input,
     button {
@@ -256,12 +258,14 @@ input {
 
     input {
         padding: 12px;
+         margin-left: 27vw;
+    width: 29vw;
     }
 
     button {
            background-color: #fafbfc;
     color: #507299;
-    padding: 12px 20px;
+    padding: 12px 15px;
     margin-left: -1px;
     border-radius: 0vw 15vw 15vw 0vw;
     }
