@@ -142,7 +142,7 @@ function onTorrent(torrent) {
 			remaining = 'готово'
 		} else {
 			remaining = moment.duration(torrent.timeRemaining / 1000, 'seconds').humanize()
-			remaining = remaining[0].toUpperCase() + remaining.substring(1) + ' remaining'
+			remaining = remaining[0].toUpperCase() + remaining.substring(1) + 'требуется'
 		}
 		$remaining.html(remaining)
 
@@ -612,16 +612,16 @@ function onTorrent(torrent) {
         future : 'in %s',
         past   : '%s ago',
         s  : 'несколько секунд',
-        m  : 'a minute',
-        mm : '%d minutes',
-        h  : 'an hour',
-        hh : '%d hours',
-        d  : 'a day',
-        dd : '%d days',
-        M  : 'a month',
-        MM : '%d months',
-        y  : 'a year',
-        yy : '%d years'
+        m  : 'минута',
+        mm : '%d минуты',
+        h  : 'час',
+        hh : '%d часов',
+        d  : 'день',
+        dd : '%d дней',
+        M  : 'месяц',
+        MM : '%d месяцев',
+        y  : 'год',
+        yy : '%d лет'
     };
 
     function relative__relativeTime (number, withoutSuffix, string, isFuture) {
