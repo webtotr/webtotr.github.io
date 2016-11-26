@@ -3,7 +3,7 @@ require('./webtorrent.js');
 
 var clipboard = new Clipboard('#share-url-btn');
 clipboard.on('success', function (e) {
-	$('#share-url-btn').attr('title', 'Copied!').tooltip('fixTitle').tooltip('show');
+	$('#share-url-btn').attr('title', 'скопировано!').tooltip('fixTitle').tooltip('show');
 	e.clearSelection();
 });
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$('#share-url').val(window.location.href);
 	$('[data-toggle="tooltip"]').tooltip();
 	$('#share-url-btn').mouseleave(function () {
-		$('#share-url-btn').attr('title', 'Copy to clipboard').tooltip('fixTitle');
+		$('#share-url-btn').attr('title', 'копировать ссылку').tooltip('fixTitle');
 	});
 
 	fitMagnetInput();
