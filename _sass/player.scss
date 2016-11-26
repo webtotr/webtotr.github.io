@@ -11,7 +11,7 @@
 #progressBar {
 	height: 5px;
 	width: 0%;
-	background-color: $red-1;
+	background: rgba(0, 255, 10, 0.62);
 	transition: width .4s ease-in-out;
 }
 
