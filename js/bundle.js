@@ -109,7 +109,7 @@ function onTorrent(torrent) {
 	$streamedFileName.html(largestFile.name)
 
 	// Update clipboard share url
-	$('#share-url').val('https://webtotr.github.io/magnet-player/#' + torrent.infoHash);
+	$('#share-url').val('https://ferrolho.github.io/magnet-player/#' + torrent.infoHash);
 
 	// Stream the file in the browser
 	largestFile.appendTo('#output')
@@ -611,7 +611,7 @@ function onTorrent(torrent) {
     var defaultRelativeTime = {
         future : 'in %s',
         past   : '%s ago',
-        s  : 'a few seconds',
+        s  : 'несколько секунд',
         m  : 'a minute',
         mm : '%d minutes',
         h  : 'an hour',
