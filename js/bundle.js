@@ -610,18 +610,18 @@ function onTorrent(torrent) {
 
     var defaultRelativeTime = {
         future : 'in %s',
-        past   : '%s ago',
-        s  : 'несколько секунд',
-        m  : 'минута',
-        mm : '%d минуты',
+        past   : '%s назад ',
+        s  : 'несколько секунд ',
+        m  : 'минута ',
+        mm : '%d минуты ',
         h  : 'час',
-        hh : '%d часов',
-        d  : 'день',
-        dd : '%d дней',
+        hh : '%d часов ',
+        d  : 'день ',
+        dd : '%d дней ',
         M  : 'месяц',
-        MM : '%d месяцев',
-        y  : 'год',
-        yy : '%d лет'
+        MM : '%d месяцев ',
+        y  : 'год ',
+        yy : '%d лет '
     };
 
     function relative__relativeTime (number, withoutSuffix, string, isFuture) {
