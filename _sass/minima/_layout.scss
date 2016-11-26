@@ -239,10 +239,11 @@ input {
     }
 
     button {
-        background-color: $red-1;
-        color: $yellow-1;
-        padding: 12px 20px;
-        margin-left: -1px;
+           background-color: #fafbfc;
+    color: #507299;
+    padding: 12px 20px;
+    margin-left: -1px;
+    border-radius: 0vw 15vw 15vw 0vw;
     }
 }
 
