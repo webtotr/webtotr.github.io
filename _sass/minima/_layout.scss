@@ -228,14 +228,18 @@ input {
 #magnet-input {
     margin-bottom: $spacing-unit / 2;
     text-align: center;
+        width: 70vw;
+    border-radius: 15vw 0vw 0vw 15vw;
 
     input,
     button {
-        border: 1px solid $red-2;
+        /*border: 1px solid $red-2;*/
     }
 
     input {
-        padding: 12px;
+       /* padding: 12px;*/
+            width: 70vw;
+    border-radius: 15vw 0vw 0vw 15vw;
     }
 
     button {
