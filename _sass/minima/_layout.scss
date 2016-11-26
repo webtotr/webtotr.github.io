@@ -1,6 +1,16 @@
 /**
 * Site header
 */
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent;
+    background-image: none;
+    color: #507299;
+}
+
+
+
+
 .site-header {
     background-color: $blue;
     border-top: 5px solid $red-2;
