@@ -245,14 +245,14 @@ input {
     color: #507299;
     font-weight: 900;
     background:transparent;
-    border-bottom: 2px solid #fafbfc;
+   
     position: absolute;
     top: 44vw;
     left: 18vw;
 }
 
 #magnet-input {
-    margin-bottom: $spacing-unit / 2;
+     border-bottom: 2px solid #fafbfc;
     text-align: center;
      margin-left: 27vw;
     width: 29vw;
