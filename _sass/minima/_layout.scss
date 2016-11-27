@@ -302,8 +302,9 @@ input {
     input,
     button {
         background-color: $white;
-        border: 1px solid $blue;
+        border: 0px solid $blue;
         padding: 8px;
+        font-weight: 900;
     }
 
     button {
