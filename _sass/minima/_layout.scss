@@ -257,15 +257,16 @@ input {
     }
 
     input {
-         padding: 12px;
-    width: 37.9vw!important;
+    padding: 12px;
+    width: 59.65vw !important;
     border-radius: 15vw;
     color: #507299;
     font-weight: 900;
-    background:transparent;
-      position: absolute;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
     top: 44vw;
     left: 18vw;
+    box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.06);
     
     }
 
