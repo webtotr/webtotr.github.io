@@ -246,9 +246,7 @@ input {
     font-weight: 900;
     background:transparent;
    
-    position: absolute;
-    top: 44vw;
-    left: 18vw;
+   
 }
 
 #magnet-input {
@@ -260,10 +258,13 @@ input {
     input,
     button {
         border: 0px solid $red-2;
+        
     }
 
     input {
-     
+      position: absolute;
+    top: 44vw;
+    left: 18vw;
     
     }
 
