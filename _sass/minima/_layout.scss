@@ -298,7 +298,8 @@ input {
     p {
         margin-bottom: 0;
     }
-
+    input{border-radius: 10vw 0vw 0vw 10vw;
+    }
     input,
     button {
         background-color: $white;
