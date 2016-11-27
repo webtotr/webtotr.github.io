@@ -264,6 +264,7 @@ input {
     top: 44vw;
     left: 18vw;
     box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.06);
+    -webkit-transition: all 0.45s ease-in;
     }
     input:focus {
         background:#fff;
