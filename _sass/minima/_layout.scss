@@ -264,6 +264,9 @@ input {
     top: 44vw;
     left: 18vw;
     box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.06);
+    }
+    input:active {
+        background:#fff;
     
     }
 
